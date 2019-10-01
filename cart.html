@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cart | G-Tech</title>
+    <meta charset="utf-8" />
+    <!-- links -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <!-- nav -->
+  <body class="text-center body body1">
+    <div class="carty">
+      <a class="nav" href="catalogue.html">Catalogue</a><br />
+      <!-- header -->
+      <h1><u>Items In Cart</u></h1>
+
+      <h3><u>Product Name & Amount</u></h3>
+      <h4 id="Stuff"></h4>
+      <br />
+      <article id="itemTotal"><u>Total: R </u></article>
+      <br />
+      <h4>Would you like us to deliver:</h4>
+      <p>Delivery cost is R200.00</p>
+      <!-- particular buttons -->
+      <input
+        onclick="radio()"
+        id="yes"
+        type="radio"
+        name="deliver"
+        value="yes"
+      />
+      Delivery<br />
+      <!-- buttons calling functions -->
+      <input onclick="radio()" id="no" type="radio" name="deliver" value="no" />
+      Collection<br />
+      <br />
+      <h4>Please enter your coupon:</h4>
+      <p>You'll get R1000 with your coupon</p>
+      <input onclick="radio()" id="coupon" type="text" name="coupon" value="" />
+      <br />
+      <br />
+      <p>Please enter your discount percent</p>
+      <input id="discount" /> % <br /><br />
+      <br />
+      <button onclick="getPrice()">Get total</button>
+      <br /><br />
+      <input readonly id="total" />
+      <br />
+      <br />
+      <button onclick="confirm()">Confirm Order</button>
+    </div>
+
+    <script type="text/javascript" src="cart.js"></script>
+  </body>
+</html>
