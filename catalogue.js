@@ -168,15 +168,3 @@ $(document).ready(function() {
   });
 });
 
-$("#hoverli").hover(
-  function() {
-    $("#actions_menu")
-      .finish()
-      .slideDown("fast");
-  },
-  function() {
-    $("#actions_menu")
-      .finish()
-      .slideUp("fast");
-  }
-);
