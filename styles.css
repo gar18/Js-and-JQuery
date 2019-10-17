@@ -1,13 +1,14 @@
 body {
   padding: 2%;
-  background: grey;
+  background-image: url("idk.jpg");
 }
 
 .nav {
   font-size: 1.2rem;
-  color: grey;
+  color: cornsilk;
 }
 
 .carty {
-  color: grey;
+  color: rgb(0, 0, 0);
 }
+
