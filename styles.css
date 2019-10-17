@@ -1,13 +1,13 @@
 body {
   padding: 2%;
-  background:black;
+  background:grey;
 }
 
 .nav {
   font-size: 1.2rem;
-  color: cornsilk;
+  color: grey;
 }
 
 .carty {
-  color: cornsilk;
+  color: grey;
 }
